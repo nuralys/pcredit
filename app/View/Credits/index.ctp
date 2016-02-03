@@ -1,4 +1,4 @@
-<div class="cr">
+
 <section class="main_text">
 	<div class="zayavka">
 		<h3>Онлайн заявка</h3>
@@ -51,4 +51,3 @@
 					</div>
 				</div>
 			</div>
-		</div>

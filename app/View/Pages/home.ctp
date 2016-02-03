@@ -1,4 +1,4 @@
-<div class="cr">
+
 			<div class="up_part">
 				<div class="banner">
 					<div class="img"></div>
@@ -21,13 +21,10 @@
 							<span></span>
 						</div>
 						<div class="price_filter clearfix">
-							<div class="title">Желаемая сумма займа</div>
-							<div id="slider"></div>
-							<div class="price_bot">
-								<span id="contentSlider"></span>
-								<span class="dol">$</span>
-							</div>
-							<input type="hidden" value="" id="hiddenSum" name="data[Credit][hiddenSum]">
+							<div class="title">Желаемая сумма займа</div>	<div class="slider-wrapper">
+					            <input type="text" class="js-callback" />
+					            <div id="js-display-callback" class="display-box"></div>
+					          </div>							
 						</div>
 						<div class="c_rows clearfix">
 							<div class="row_credit">
@@ -106,4 +103,3 @@
 					</div>
 				</div>
 			</div>
-		</div>

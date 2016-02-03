@@ -2,7 +2,7 @@
 	<div class="cr">
 		<div class="foot_up">
 			<a class="logo" href="#">
-				<img src="/img/logo.png"/>
+				<img src="/img/f_logo.png"/>
 			</a>
 			<div class="h_des">Микрофинансовая организация<br> кредиты под залог</div>
 			<div class="h_num">
