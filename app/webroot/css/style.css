@@ -190,6 +190,15 @@ ul{
   width:960px;
   margin:0 auto;
 }
+.fl_l{
+  float:left;
+}
+.fl_r{
+  float:right;
+}
+.ov{
+  overflow:hidden;
+}
 @font-face {
     font-family: 'HelveticaNeue';
     font-weight:200;
@@ -240,11 +249,11 @@ header{
 	color-stop(0, #32508B),
 	color-stop(1, #47629D)
 	);
-	background-image: -o-linear-gradient(bottom, #32508B 0%, #47629D 100%);
-	background-image: -moz-linear-gradient(bottom, #32508B 0%, #47629D 100%);
-	background-image: -webkit-linear-gradient(bottom, #32508B 0%, #47629D 100%);
-	background-image: -ms-linear-gradient(bottom, #32508B 0%, #47629D 100%);
-	background-image: linear-gradient(to bottom, #32508B 0%, #47629D 100%);
+	background-image: -o-linear-gradient(bottom, #017AC3 0%, #07649C 100%);
+	background-image: -moz-linear-gradient(bottom, #017AC3 0%, #07649C 100%);
+	background-image: -webkit-linear-gradient(bottom, #017AC3 0%, #07649C 100%);
+	background-image: -ms-linear-gradient(bottom, #017AC3 0%, #07649C 100%);
+	    background-image: linear-gradient(to bottom, #017AC3 0%, #07649C 100%);
   height:148px;
   color:#fff;
 }
@@ -866,14 +875,13 @@ footer .h_num a{
 	font-size:16px;
 	margin:0 0 10px 0;
 }
+.cont_row{
+  width:48%;
+}
 .contact_ul{
   overflow:hidden;
-  margin:0 auto 15px auto;
 }
 .contact_ul li{
-  float:left;
-  width:45%;
-  margin-right:10%;
   font-size:15px;
   font-family: 'HelveticaNeue-Roman';
   margin-bottom:15px;
@@ -1077,10 +1085,23 @@ footer .h_num a{
   }
   .z_row .no_border li{
     width:33.3%;
-  }      
+  } 
+  .cont_row{
+    width:100%;
+    margin-bottom: 20px;
+  }
+  .contact_ul li{
+    text-align:center;
+  }     
   
 }
 @media screen and (max-width: 525px){
+  .logo{
+    width:55%;
+  }
+  .logo img{
+    width:100%;
+  }
   .int_row,.price_filter{
     width:100%;
     float:none;
@@ -1122,4 +1143,25 @@ footer .h_num a{
   .z_row ul li,.z_row .no_border li {
     width:100%;
   }
+}
+@media screen and (max-width: 370px){
+    header{
+      height:212px;
+    }
+    .h_top{
+      padding:25px 0 20px 0;
+    }
+    .logo{
+        float:none;
+        width:100%;
+      }
+    .logo img{
+      display:block;
+      width:auto;
+      margin:0 auto 15px auto;
+    }
+    .h_num{
+      float:none;
+      margin:0 auto;
+    }
 }
