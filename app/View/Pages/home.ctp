@@ -28,15 +28,8 @@
 						</div>
 						<div class="c_rows clearfix">
 							<div class="row_credit">
-								<span class="span1">срок под кредитование</span>
-								<select name="data[Credit][money]">
-									<option value="">Выберите срок</option>
-									<option value="1">1-6 месяцев</option>
-									<option value="2">6-12 месяцев</option>
-									<option value="3">12-18 месяцев</option>
-									<option value="4">18-24 месяцев</option>
-									<option value="5">24 и более месяцев</option>
-								</select>
+								<span class="span1">Желаемая сумма займа</span>
+								
 							</div>
 						</div>
 						<div class="c_rows clearfix">
