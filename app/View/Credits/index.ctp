@@ -14,6 +14,7 @@
 			<input type="text" placeholder="Срок кредитования">
 			<input type="text" placeholder="Город">
 		</div>
+		<input type="text" placeholder="Предмет залога">
 		<button type="submit">Получить решение</button>
 	</div>		
 </section>

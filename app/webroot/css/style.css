@@ -331,7 +331,9 @@ header{
   border-right:none;
 }
 .ul_nav li.active{
-      background-color: #b78770;
+      background-color: #b78770;    
+    position: relative;
+    left: -1px;
 }
 .ul_nav li.active a{
     color:#fff;
@@ -593,12 +595,18 @@ input.js-callback {
 }
 .button_enter{
 	margin-top:20px;
+  position: relative;
+  top: -2px;
 	background-color: #b78770;
 	color:#fff;
 	border-radius:6px;
 	padding:8px 16px;
 	border:none;
 	box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.74);
+}
+.button_enter:hover{
+      top: 0px;
+      box-shadow:inset 0px 2px 0px rgba(0, 0, 0, 0.74);
 }
 .news_ul{
 	overflow:hidden;
@@ -905,15 +913,23 @@ footer .h_num a{
   margin-right:0;
 }
 .zayavka button{
-    background-color: #70737e;
+    background-color: #b78770;
     color: #fff;
     border-radius: 5px;
     border: none;
     padding: 10px 12px;
     margin: 0 auto;
     display: block;
+    position:relative;
+    top:-2px;
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.74);
 }
+.zayavka button:hover{
+  top:0px;
+   box-shadow:inset 0px 2px 0px rgba(0, 0, 0, 0.74);
+}  
+
+
 /*begin footer*/
 .foot_up{
 	overflow:hidden;
@@ -1010,6 +1026,9 @@ footer .h_num a{
   .zayavka{
     width:90%;
   }
+  .z_row h3{
+    font-size:13px;
+  }
 }
 @media screen and (max-width: 740px){
   .h_des{
@@ -1040,6 +1059,25 @@ footer .h_num a{
   .zayavka{
     width:100%;
   }
+  .z_row {
+    width:100%;
+  }
+  .z_row h3,.z_row ul{
+    border-right:none;
+  }
+  .z_row ul{
+    min-height:auto;
+    padding-bottom:20px;
+    overflow:hidden;
+  }
+  .z_row ul li {
+    padding-top: 20px;
+    width: 50%;
+    float: left;
+  }
+  .z_row .no_border li{
+    width:33.3%;
+  }      
   
 }
 @media screen and (max-width: 525px){
@@ -1080,5 +1118,8 @@ footer .h_num a{
   }
   .foot_bot p{
     display:none;
+  }
+  .z_row ul li,.z_row .no_border li {
+    width:100%;
   }
 }
