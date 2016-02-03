@@ -1,4 +1,4 @@
-
+<div class="cr">
 <section class="main_text">
 	<h2>Автоломбард</h2>
 	<p>Возникли финансовые проблемы? Оформите кредит под залог автомобиля. МФО «Premium Credit» предлагает взять кредит на выгодных условиях. Ваш транспорт остается у вас. В случае, если вы захотите оставить машину у нас мы организуем безопасное место на нашей охраняемой стоянке.</p>
@@ -78,18 +78,19 @@
 </div>
 </div>
 <div class="feed_back">
-<div class="cr">
-	<div class="up_heading">
-		<span>Отзывы</span>
-	</div>
-	<div class="feed_part">
-		<div class="img">
-			<img src="img/ava.png"/>
+	<div class="cr">
+		<div class="up_heading">
+			<span>Отзывы</span>
 		</div>
-		<div class="feed_text">
-			<span>Иванов Иван</span>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo numquam commodi delectus. Nisi nihil, aspernatur totam blanditiis inventore dignissimos culpa nemo optio.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit molestiae doloribus alias!Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		<div class="feed_part">
+			<div class="img">
+				<img src="img/ava.png"/>
+			</div>
+			<div class="feed_text">
+				<span>Иванов Иван</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo numquam commodi delectus. Nisi nihil, aspernatur totam blanditiis inventore dignissimos culpa nemo optio.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit molestiae doloribus alias!Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
 		</div>
 	</div>
 </div>

@@ -13,9 +13,7 @@
 </head>
 <body>
 		<?php echo $this->element('header'); //Вывод шапки сайта ?>
-		<div class="cr">
-			<?php echo $this->fetch('content'); ?>
-		</div>
+		<?php echo $this->fetch('content'); ?>
 		<?php echo $this->element('footer'); ?>
 		  <script type="text/javascript">
 		    // Callback.

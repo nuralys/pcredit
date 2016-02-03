@@ -1,7 +1,7 @@
 <header>
 			<div class="cr">
 				<div class="h_top">
-					<a class="logo" href="index.html">
+					<a class="logo" href="/">
 						<img src="/img/logo.png"/>
 					</a>
 					<div class="h_des">Микрофинансовая организация<br> кредиты под залог</div>

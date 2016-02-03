@@ -328,7 +328,7 @@ header{
 .ul_nav li a{
 	border-right: 1px solid #0070b8;
 	font-size: 14px;
-	padding: 0 32px;
+	padding: 0 36px;
 	line-height: 24px;
 	margin-top: 16px;
 	color: #010101;
@@ -410,7 +410,7 @@ header{
 	position:relative;
 }
 .mob_close span:after{
-    background-image: url(../img/arrow_down.svg);
+    background-image: url(../img/close.svg);
     background-size: 14px;
     background-repeat: no-repeat;
     width: 14px;
@@ -1142,6 +1142,10 @@ footer .h_num a{
   }
   .z_row ul li,.z_row .no_border li {
     width:100%;
+  }
+  .news_part .img{
+    width:100%;
+    float:none;
   }
 }
 @media screen and (max-width: 370px){

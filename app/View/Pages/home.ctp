@@ -1,4 +1,4 @@
-
+<div class="cr">
 			<div class="up_part">
 				<div class="banner">
 					<div class="img"></div>
@@ -103,3 +103,4 @@
 					</div>
 				</div>
 			</div>
+		</div>	

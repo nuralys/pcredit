@@ -1,3 +1,4 @@
+	<div class="cr">
 	<section class="main_text">
 				<h3>Контакты</h3>
 				<div class="ov">
@@ -44,6 +45,7 @@
 					<?php endforeach ?>
 				</ul>
 			</div>
+		</div>	
 		<div class="feed_back">
 			<div class="cr">
 				<div class="up_heading">
