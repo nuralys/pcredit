@@ -8,4 +8,5 @@ $(document).ready(function() {
     mobclose.addEventListener("click",function(){
         nav.classList.remove("nav_show");  
     });
+    $('.js-callback').attr('name', 'other_amount');
 });
