@@ -10,7 +10,7 @@
 			<input type="text" name="data[Credit][phone]" required="required" placeholder="Мобильный телефон">
 			<input type="text" name="data[Credit][email]" placeholder="Эл.Почта">
 		</div>
-		<input type="text" placeholder="Cумма">
+		<input type="text" name="data[Credit][other_amount]" placeholder="Cумма">
 		<div class="double_in clearfix">
 			<input type="text" name="data[Credit][srok]" placeholder="Срок кредитования">
 			<input type="text" name="data[Credit][city]" placeholder="Город">

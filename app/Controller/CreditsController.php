@@ -43,10 +43,10 @@ class CreditsController extends AppController{
 			->to('pcredit@astanacreative.kz')
 			->subject('Новая заявка с сайта');
 			$message = 'ФИО: '. $this->request->data['Credit']['name'];
-			$message .= ' Телефон: '. $this->request->data['Credit']['phone'];
-			$message .= ' Желаемая сумма займа: '. $this->request->data['Credit']['other_amount'];
-			$message .= ' Срок займа под автомобиль: '. $car;
-			$message .= ' Срок займа под недвижимость: '. $realty;
+			$message .= "\r\nТелефон: ". $this->request->data['Credit']['phone'];
+			$message .= "\r\nЖелаемая сумма займа: ". $this->request->data['Credit']['other_amount'];
+			$message .= "\r\nСрок займа под автомобиль: ". $car;
+			$message .= "\r\nСрок займа под недвижимость: ". $realty;
 			if( $email->send($message) ){
 				$this->Session->setFlash('Письмо успешно отправлено', 'default', array(), 'good');
 				//unset($message);
@@ -68,13 +68,13 @@ class CreditsController extends AppController{
 			->to('pcredit@astanacreative.kz')
 			->subject('Новая заявка с сайта');
 			$message = 'ФИО: '. $this->request->data['Credit']['name'];
-			$message .= 'Дата рождения: '. $this->request->data['Credit']['berth'];
-			$message .= ' Телефон: '. $this->request->data['Credit']['phone'];
-			$message .= ' e-mail: '. $this->request->data['Credit']['email'];
-			$message .= ' Желаемая сумма займа: '. $this->request->data['Credit']['other_amount'];
-			$message .= ' Срок кредитования: '. $this->request->data['Credit']['srok'];
-			$message .= ' Город: '. $this->request->data['Credit']['city'];
-			$message .= ' Предмет залога: '. $this->request->data['Credit']['zalog'];
+			$message .= "\r\nДата рождения: ". $this->request->data['Credit']['berth'];
+			$message .= "\r\nТелефон: ". $this->request->data['Credit']['phone'];
+			$message .= "\r\ne-mail: ". $this->request->data['Credit']['email'];
+			$message .= "\r\nЖелаемая сумма займа: ". $this->request->data['Credit']['other_amount'];
+			$message .= "\r\nСрок кредитования: ". $this->request->data['Credit']['srok'];
+			$message .= "\r\nГород: ". $this->request->data['Credit']['city'];
+			$message .= "\r\nПредмет залога: ". $this->request->data['Credit']['zalog'];
 			if( $email->send($message) ){
 				$this->Session->setFlash('Письмо успешно отправлено', 'default', array(), 'good');
 				//unset($message);
@@ -86,4 +86,3 @@ class CreditsController extends AppController{
 		}
 
 	}
-}
