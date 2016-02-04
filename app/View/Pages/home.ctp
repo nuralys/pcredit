@@ -11,6 +11,7 @@
 					<h4>Онлайн заявка<br>
 						<span>на получение кредита</span>
 					</h4>
+					<div class="wr">
 					<form class="form_int" action="/credits/get" method="post">
 						<div class="int_row clearfix">
 							<input type="text" name="data[Credit][name]" placeholder="Контактное лицо"/>
@@ -59,7 +60,8 @@
 							</div>
 						</div>
 						<button class="button_enter" type="submit">Отправить заявку</button>
-					</form>				
+					</form>	
+					</div>			
 				</div>
 			</div>
 			<div class="news_part">
@@ -85,15 +87,27 @@
 				<div class="up_heading">
 					<span>Отзывы</span>
 				</div>
-				<div class="feed_part">
-					<div class="img">
-						<img src="img/ava.png"/>
+				<div class="feeds">
+					<div class="feed_part">
+						<div class="img">
+							<img src="img/ava.png"/>
+						</div>
+						<div class="feed_text">
+							<span>Иванов Иван</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo numquam commodi delectus. Nisi nihil, aspernatur totam blanditiis inventore dignissimos culpa nemo optio.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit molestiae doloribus alias!Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
 					</div>
-					<div class="feed_text">
-						<span>Иванов Иван</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo numquam commodi delectus. Nisi nihil, aspernatur totam blanditiis inventore dignissimos culpa nemo optio.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit molestiae doloribus alias!Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<div class="feed_part">
+						<div class="img">
+							<img src="img/ava.png"/>
+						</div>
+						<div class="feed_text">
+							<span>Иванов Иван</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo numquam commodi delectus. Nisi nihil, aspernatur totam blanditiis inventore dignissimos culpa nemo optio.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit molestiae doloribus alias!Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
 					</div>
-				</div>
+				</div>	
 			</div>
 		</div>	

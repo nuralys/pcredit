@@ -377,8 +377,9 @@ header{
     width: 14px;
     position: absolute;
     height: 14px;
-    right: -20px;
-    top: 1px;
+    right: -21px;
+    top: 0px;
+    background-position: center;
     content: "";
 }
 .ul_nav{
@@ -423,12 +424,7 @@ header{
 .mob_close span{
 
 }
-.form{
-  text-align:right;
-}
-.form h4{
-  text-align:right;
-}
+
 /*end header*/
 
 .up_part{
@@ -481,14 +477,22 @@ header{
 .banner h4{
   color:#53555f;
 }
+.form{
+  text-align:right;
+}
+.form h4{
+  text-align:right;
+}
 .form h4{
   color:#9d705b;
 }
 .form_int{
   position:relative;
   z-index:2;
-  padding:0px 20px;
   color:#9d705b;
+}
+.form .wr{
+    padding:0 25px;
 }
 .int_row{
 	position:relative;
@@ -543,7 +547,7 @@ input.js-callback {
     width: 220px;
     text-indent: 5px;
     border-radius: 3px;
-    right: 21px;
+    right: 1px;
     box-shadow: -1px -1px 1px 0px rgba(37, 36, 36, 0.37),1px -1px 1px 0px rgba(37, 36, 36, 0.37);
     border: none;
     display: block !important;
@@ -949,6 +953,7 @@ footer .h_num a{
 }
 .foot_bot p{
 	float:left;
+  margin-top: 0px;
 	font-family: 'HelveticaNeue-roman';
 }
 .foot_bot a{
@@ -984,9 +989,7 @@ footer .h_num a{
   .form img{
     display:none;
   }
-  .form_int{
-    padding:0 60px;
-  }
+
   .int_row span{
     display:none;
   }
@@ -1025,7 +1028,7 @@ footer .h_num a{
   }
   input.js-callback {
     top: 131px;
-    right: 61px;
+    right: 1px;
   }
   .button_enter{
         margin: 20px auto;
@@ -1042,12 +1045,10 @@ footer .h_num a{
   .h_des{
     display:none;
   }
-  .form_int{
+  .form .wr{
     padding:0 20px;
   }
-  input.js-callback {
-    right: 21px;
-  }
+
   input.js-callback,.c_rows select{
     width:170px;
   }
@@ -1101,6 +1102,7 @@ footer .h_num a{
   }
   .logo img{
     width:100%;
+    max-width: 207px;
   }
   .int_row,.price_filter{
     width:100%;
@@ -1111,7 +1113,7 @@ footer .h_num a{
     width:100%;
   }
   input.js-callback {
-    top: 222px;
+    top: 225px;
     left: 20px;
     width:80%;
   }
@@ -1120,10 +1122,10 @@ footer .h_num a{
     display: block;
     float: none;
     text-align: left;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
   }
   .c_rows .span1 {
-    margin-bottom: 15px;
+    margin-bottom: 27px;
   }
   .c_rows select{
     width: 89.5%;
@@ -1146,6 +1148,9 @@ footer .h_num a{
   .news_part .img{
     width:100%;
     float:none;
+  }
+  .foot_bot a{
+    float:left;
   }
 }
 @media screen and (max-width: 370px){
