@@ -54,6 +54,18 @@ class PagesController extends AppController {
 		$this->set(compact('news', 'title_for_layout'));
 	}
 
+	public function about(){
+		$news = $this->News->find('all', array(
+			'limit' => 9,
+			'order' => array('id' => 'desc')
+		));
+		
+
+		$this->view = 'about';
+		$title_for_layout = 'О компании - МФО «Premium Credit»';
+		$this->set(compact('news', 'title_for_layout'));
+	}
+
 	public function admin_index(){
 		
 	}

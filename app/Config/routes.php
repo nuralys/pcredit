@@ -13,6 +13,7 @@
 	Router::connect('/autolombard', array('controller' => 'pages', 'action' => 'autolombard'));
 	Router::connect('/contacts', array('controller' => 'pages', 'action' => 'contacts'));
 	Router::connect('/realty', array('controller' => 'pages', 'action' => 'realty'));
+	Router::connect('/about', array('controller' => 'pages', 'action' => 'about'));
 	Router::connect('/credit/get', array('controller' => 'credits', 'action' => 'get'));
 	Router::connect('/credit', array('controller' => 'credits', 'action' => 'index'));
 /**

@@ -20,7 +20,7 @@
 					<div class="mob_ul">
 						<ul class="ul_nav">
 							<li <?php if($this->request->params['action']=='home') echo 'class="active"'?>>
-								<a href="/">О компании</a>
+								<a href="/about">О компании</a>
 							</li>
 							<li <?php if($this->request->params['action']=='autolombard') echo 'class="active"'?>>
 								<a href="/autolombard">Автоломбард</a>
