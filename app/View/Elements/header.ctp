@@ -19,7 +19,7 @@
 				<nav class="nav">
 					<div class="mob_ul">
 						<ul class="ul_nav">
-							<li <?php if($this->request->params['action']=='home') echo 'class="active"'?>>
+							<li <?php if($this->request->params['action']=='about') echo 'class="active"'?>>
 								<a href="/about">О компании</a>
 							</li>
 							<li <?php if($this->request->params['action']=='autolombard') echo 'class="active"'?>>

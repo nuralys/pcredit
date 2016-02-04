@@ -460,6 +460,10 @@ header{
   background-repeat:no-repeat;
   background-image:url(../img/form.png);
 }
+.a_logo{
+  display:block;
+  margin:0 auto;
+}
 .up_part h4{
   text-transform:uppercase;
   position:relative;
