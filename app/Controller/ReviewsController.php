@@ -42,6 +42,7 @@ class ReviewsController extends AppController{
 		if($this->request->is(array('post', 'put'))){
 			$this->Review->id = $id;
 			$data1 = $this->request->data['Review'];
+			// debug($data1);
 			if(!$data1['img']['name']){
 				unset($data1['img']);
 			}
