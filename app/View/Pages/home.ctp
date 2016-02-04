@@ -88,26 +88,17 @@
 					<span>Отзывы</span>
 				</div>
 				<div class="feeds">
+				<?php foreach($reviews as $item): ?>
 					<div class="feed_part">
 						<div class="img">
-							<img src="img/ava.png"/>
+							<img src="/img/review/thumbs/<?=$item['Review']['img']?>"/>
 						</div>
 						<div class="feed_text">
-							<span>Иванов Иван</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo numquam commodi delectus. Nisi nihil, aspernatur totam blanditiis inventore dignissimos culpa nemo optio.
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit molestiae doloribus alias!Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							<span><?=$item['Review']['title']?></span>
+							<?=$item['Review']['body']?>
 						</div>
 					</div>
-					<div class="feed_part">
-						<div class="img">
-							<img src="img/ava.png"/>
-						</div>
-						<div class="feed_text">
-							<span>Иванов Иван</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo numquam commodi delectus. Nisi nihil, aspernatur totam blanditiis inventore dignissimos culpa nemo optio.
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit molestiae doloribus alias!Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
+					<?php endforeach; ?>
 				</div>	
 			</div>
 		</div>	

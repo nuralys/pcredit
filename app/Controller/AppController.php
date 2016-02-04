@@ -5,7 +5,7 @@ App::uses('Controller', 'Controller');
 
 
 class AppController extends Controller {
-	public $uses = array('App', 'News');
+	public $uses = array('App', 'News', 'Review');
 	public $components = array('DebugKit.Toolbar', 'Session', 'Auth' => array(
             'loginRedirect' => '/admin/',
             'logoutRedirect' => '/',
@@ -27,8 +27,12 @@ class AppController extends Controller {
 		}else{
 			$this->layout = 'index';
 		}
+		$reviews = $this->Review->find('all', array(
+			'order' => array('id' => 'desc'),
+			'limit' => 5
+		));
 		$newsForSidebar = $this->__newsForSidebar();
-		$this->set(compact('admin', 'newsForSidebar'));
+		$this->set(compact('admin', 'newsForSidebar', 'reviews'));
 
 	}
 
